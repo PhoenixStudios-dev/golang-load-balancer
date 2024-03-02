@@ -1,0 +1,6 @@
+lb_port: 3332
+strategy: least-connection
+backends:
+  - "http://localhost:8000"
+  - "http://localhost:8000"
+  - "http://localhost:8000"
